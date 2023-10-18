@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Novoroční běh v Křinci">
+    <meta property="og:description" content="Novoroční běh v Křinci">
+    <meta property="og:url" content="https://sokolkrinec.cz/knb/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Křinecký novoroční běh">
+    <meta name="author" content="Andreas Molitoris">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/sokol_favicon_16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/sokol_favicon_32.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="img/sokol_favicon_64.png">
+    <title>Křinecký novoroční běh</title>
+    <script src="https://www.cookie-lista.cz/BeeCookie/jquery-3.3.1.min.js"></script>
+    
+    <!-- COOKIE LIŠTA START -->
+    <script src="https://www.cookie-lista.cz/BeeCookie/BeeCookie.js"></script>
+    <script>
+    $(function(){
+        var options={
+            theme:"default",
+            position:"bottom-right",
+            distance:20,
+            borderRadius:30,
+            background:"#eae4e2",
+            backgroundOpacity:"0.8",
+            fontSize:14,
+            text:"Tyto webové stránky používají k poskytování svých služeb soubory Cookies. Používáním těchto webových stránek souhlasíte s použitím souborů Cookies.",
+            html:true,
+            textColor:"#000000",
+            showButton:true,
+            buttonText:"SOUHLASÍM!",
+            buttonColor:"#FFF",
+            buttonBgColor:"#9bc0d3",
+            moreButtonText:"Více informací o Cookies",
+            moreButtonColor:"#000000",
+            moreButtonLink:"https://www.cookie-lista.cz/co-je-cookies.html",
+            showCloseButton:false,
+            cookieDays:1000}
+        $("body").BeeCookie(options);});
+    </script>
+    <!-- COOKIE LIŠTA KONEC -->
+
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C33N859CCG"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-C33N859CCG');
+    </script>
+    <!-- Google tag KONEC -->
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="hlavicka">
+                <div>
+                    <a href="https://www.sokolkrinec.cz"><img src="img/logosokol2.png" alt="Logo TJ Sokol Křinec"></a>
+                </div>
+                <div class="hlavicka__pocitadlo">
+                    <div id="countdown">
+                        <span>00d</span> <span>00h</span> <span>00m</span> <span>00s</span>
+                    </div>
+                        <script>
+                            var countDownDate = new Date("Jan 01, 2024 14:00:00").getTime();
+                            var x = setInterval(function() {
+                                var now = new Date().getTime();
+                                var distance = countDownDate - now;
+                                if (distance < 0) {
+                                clearInterval(x);
+                                document.getElementById("countdown").innerHTML = "<span>00d</span> <span>00h</span> <span>00m</span> <span>00s</span>";
+                                } else {
+                                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                                document.getElementById("countdown").innerHTML = "Do startu zbývá:<br>  <span>" + 
+                                (days.toString().padStart(2, '0')) + "d</span> <span>" + 
+                                (hours.toString().padStart(2, '0')) + "h</span> <span>" + 
+                                (minutes.toString().padStart(2, '0')) + "m</span> <span>" + 
+                                (seconds.toString().padStart(2, '0')) + "s</span>";
+                                }
+                                }, 1000);
+                        </script>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="nazevzavodu">
+            <div class="container">
+                <h1 class="nazevzavodu__logo">
+                    Křinecký novoroční běh
+                </p>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="registrace">
+                
+               <p class="registrace__nadpis"><strong>Registrace <a href="https://www.nazavody.cz/zavod/430-krinecky-novorocni-beh-2024/" target="_blank">ZDE</a></strong></p>
+
+               <p><i>Výsledky 0. ročníku 2023 ke stažení v </i> <a href="img/vysledky_knb_2023.pdf" target="_blank"><strong>PDF</strong></a></p>
+
+               <p>Pozvánka na rok <a href="img/knb_ pozvanka.pdf" target="_blank">2024</a></p>
+
+            </div>
+        </div>
+
+        <div class="trasa">
+            <div class="container">
+                <h2>Popis trati</h2>
+                <div class="trat">
+                    <div class="popistrati">
+                        <p>Start a cíl běhu je v zámeckém parku, běží se dvakrát okruh <i>zámek – Kuncberk – hřbitov – Štěpnice</i>.
+                        <br>Delká trati je 3 km, tj. běžci na 6 kilometrů běží dva okruhy.
+                            <br>
+                            Trať je značená šipkami, na křižovatkách budou stát navigátoři.
+                        </p>
+                        <h3>Trasa ke stažení:</h3>
+                        <a href="https://connect.garmin.com/modern/course/206924615" target="_blank"><img class="ikona" src="img/connect.png" alt="Trasa na Garmin Connect"></a>
+                    </div>
+                    <div>
+                        <a href="https://mapy.cz/s/hapokadaro" target="_blank"><img src="img/mapa_knb.png" alt="Mapa jednoho okruhu běhu"></a>
+                        
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        <div class="texty">
+            <div class="container">
+                <div class="propozice">
+                    <div class="propozice_l">
+                        <p>
+                            <h4>Propozice</h4> 
+                            <b>Termín:</b> pondělí 01. ledna 2024  <br>
+                            <b>Místo konání:</b> Zámecký park, městys Křinec, okres Nymburk  <br>
+                            <b>Ročník: </b>1.<br>
+                            <b>Registrace:</b> pouze on-line <a href="https://www.nazavody.cz/zavod/430-krinecky-novorocni-beh-2024/" target="_blank">ZDE</a> <br>
+                            <b>Startovné</b>: 100 Kč při online registraci, na místě 150 Kč. <br>
+                            <b>Délka závodu:</b> 6 km / 3 km. <br>
+                            <strong>Kategorie hlavního závodu: </strong><i>Muži/Ženy do 40 let, Muži/Ženy nad 40 let.</i><br>
+                            <b> Popis trati:</b> 3 km okruh s převýšením 16 m. Běžci na 6 km absolvují dva okruhy. <br>
+                            <b> Povrch:</b> asfalt (80 %), zpevněné cesty (20 %).  <br>
+                            <b>Občerstvení:</b> bude zajištěno v místě startu/cíle.<br>  
+                            <b> Ceny:</b> pro první tři závodníky v každé kategorii.  <br> 
+                            <b>Vyhlášení výsledků:</b> po doběhu posledního závodníka.  <br> 
+                            <b>Bezpečnostní pokyny:</b> Závodníci startují na vlastní nebezpečí. Jsou povinni dodržovat pravidla závodu, pokyny pořadatelů a obecně právní předpisy. 
+                            Doporučujeme lékařskou prohlídku a úrazové pojištění pro den závodu.  <br> 
+                        </p>
+                    </div>
+                    <div class="propozice_r">
+                        <p>
+                            <h4>Časový harmonogram</h4> 
+                            <b>12.30</b>   Začátek prezentace dětských závodů.<br>
+                            <b>13.00</b>   Postupný start dětských závodů.<br>
+                            <b>13.15</b>   Prezentace do hlavního závodu.<br>
+                            <b>13.45</b>   Konec prezentace hlavního závodu.<br>
+                            <b>14.00</b>   Start hlavního závodu na 3 a 6 km.<br>
+                        </p>
+                        <p>
+                            <h4>Rozpis dětských běhů</h4>
+                            <b>1 - 2 roky</b>     50 m<br>
+                            <b>3 - 4 roky</b>     100 m<br>
+                            <b>5 - 6 let</b>     200 m<br>
+                            <b>7 - 8 let</b>     350 m<br>
+                            <b>9 - 10 let</b>    700 m<br>
+                            <b>11 - 15 let</b>   1 100 m<br>
+
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </main>
+      
+    
+
+
+    <footer>
+        <div class="container">
+            <div class="ikony">
+                <div class="ikony_l">
+                    <a href="http://www.krinec.cz" target="_blank"><img src="img/znakkrinec.png" alt="Znak Městyse Křinec"></a>
+                </div>
+                <div class="ikony_r">
+                    <a href="https://www.facebook.com/chotuckaslapka/" target="_blank"><img src="img/facebook_w.png" alt="Logo facebook"></a>
+                    <a href="mailto:andreas.molitoris@gmail.com" target="_blank"><img src="img/email_w.png" alt="Logo e-mail"></a>
+                </div>
+              
+            </div>    
+        </div>
+    </footer>
+
+</body>
+</html>
