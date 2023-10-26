@@ -21,8 +21,19 @@ main h1 {
     background-color: #BDDBD9;
 }
 
-.description h3 {
-    color: #98b4cb;
+
+
+.photo {
+    background-color: #AFEEEE;
+    min-height: 300px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 560px;
+    height: 315px;
+    
 }
 
 footer {
@@ -32,6 +43,8 @@ footer {
 footer img {
     width: 75px;
 }
+
+
 
 @media screen and (max-width: 991px) {
     main h1 {
@@ -61,6 +74,11 @@ footer img {
         font-size: 1rem;
     }
     
+    iframe {
+        width: 392px;
+        height: 189px;
+        
+    }
 
   }
 
@@ -82,6 +100,11 @@ footer img {
     #countdown {
         display: none;
     }
-  
+    
+    iframe {
+        width: 280px;
+        height: 157px;
+        
+    }
 
   }
